@@ -7,13 +7,14 @@
 html, body{
     display: grid;
     height: 100%;
+    width: 100%;
     place-items: center;
     background:linear-gradient(#250501, #1F1C18);
 }
 
 .back{
-    height: 220px;
-    width: 880px;
+    height: 18vw;
+    width: 64vw;
     /* background: radial-gradient(circle at 50% 50%, #FFFFFF 0%, #000000 100%), conic-gradient(red, yellow, lime, aqua, blue, fuchsia, red); */
     background-blend-mode: color-dodge, normal;
     border-radius: 10px;
@@ -23,6 +24,7 @@ html, body{
     justify-content: center; */
     animation: animate 1.5s linear infinite;
 }
+
 @keyframes animate{
     100%{
         filter: hue-rotate(360deg);
@@ -58,21 +60,21 @@ html, body{
     
     background-color: black;
     z-index: 999;
-    height: 185px;
-    width: 840px;
+    height: 16vw;
+    width: 60vw;
     /* display: flex;
     justify-content: center; */
     text-align: center;
 }
 
 .back .display #time{
-    line-height: 85px;
+    line-height: 16vw;
     color: rgb(238, 0, 0);
-    font-size: 100px;
+    font-size: 9vw;
     font-weight: 700;
     letter-spacing: 1px;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
-    margin-top: 45px;
+    margin-top: 4px;
     /* -webkit-animation: animate 1.5s linear infinite; */
     animation: animate 1.5s linear infinite;
 }
@@ -87,11 +89,13 @@ html, body{
     background: radial-gradient(circle at 50% 50%, #FFFFFF 0%, #000000 100%), conic-gradient(red, yellow, lime, aqua, blue, fuchsia, red);
     background-blend-mode: color-dodge, normal;
     text-align: center;
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 700;
     letter-spacing: 1px;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
-    margin-top: 45px;
+    margin-top: 4vw;
     animation: animate 1.5s linear infinite;
+
     /* -webkit-animation: animate 1.5s linear infinite; */
 }
+
